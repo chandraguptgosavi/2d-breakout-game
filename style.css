@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+* {
+  font-family: 'Merriweather', serif;
+  padding:0;
+  margin:0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  /* background:url("https://media.giphy.com/media/GC7C2Fi902BDG/giphy.gif"); */
+  background:url("img/wp2757874-wallpaper-gif_1.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sound {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 635px;
+  left: 540px;
+}
+#gameover {
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  border-radius: 20px;
+}
+#youwon {
+  width: 180px;
+  position: absolute;
+  top: 201px;
+  left: 158px;
+  display: none;
+}
+#youlose {
+  width: 495px;
+  position: absolute;
+  top:-22px;
+  left: 0px;
+  display: none;
+}
+#restart {
+  position: absolute;
+  top: 387px;
+  left: 165px;
+  cursor: pointer;
+  font-size: 2.25em;
+  color: #fff;
+}
+.cv {
+  border-radius: 20px;
+}
